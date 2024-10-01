@@ -1,0 +1,15 @@
+terraform {
+  required_providers {
+    aws = {
+      source = "hashicorp/aws"
+      version = "5.69.0"
+    }
+  }
+}
+
+provider "aws" {
+  # Configuration options
+}
+provider "github" {
+  # Configuration options
+}
